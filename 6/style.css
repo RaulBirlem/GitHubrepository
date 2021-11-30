@@ -4,7 +4,7 @@
 }
 
 a {
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: 0.3s;
     padding-left: 16px;
@@ -27,8 +27,9 @@ nav {
     align-items: center;
     font-family: system-ui,
     -apple-system, Arial, Helvetica, sans-serif;
-    background: #165c01;
+    background: #296d31c4;
     height: 8vh;
+    
     
 }
 /*vh é viewport height, altura responsiva
@@ -67,7 +68,7 @@ body {
     
     background-size: 100vw;
     background-position: top;
-    background-color: rgba(18, 132, 238, 0.178);
+    background-color: #85c78dc4;
     
     background-size: 50%;
     
@@ -84,12 +85,13 @@ body {
         right: 0;
         width: 50vw;
         height: 92vh;
-        background: #165c01;
+        background:  rgba(192, 192, 192, 0.952);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
+        
     }
 }
 
@@ -147,7 +149,7 @@ body {
 main.main1{
     max-width: 40%;
     min-width: 50%;
-    background-color: #2d632088;
+    background-color: #85c78d7c;
     font-family: system-ui,Helvetica, sans-serif;
     font-size: x-small;
     color: rgba(255, 255, 255, 0.685);
